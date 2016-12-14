@@ -4,6 +4,15 @@
 \usepackage{xspace}		% Takes care of spaces after macros
 \usepackage{amsmath}		% Provides the align environment, used in chapter 13 for the notes
 
+\usepackage{endnotes}  % jpp: move footnotes to end so don't give away everything
+% http://tex.stackexchange.com/questions/56145/is-there-a-way-to-move-all-footnotes-to-the-end-of-the-document
+
+% jpp: put 
+% https://www.sharelatex.com/learn/Margin_notes
+\usepackage{geometry}  
+\usepackage{marginnote}
+
+
 %~ \usepackage{savesym}
 %~ \savesymbol{textls}
 \usepackage[protrusion=true]{microtype}
@@ -35,6 +44,35 @@ some-where which-ev-er Hog-warts re-pli-cat-ed ran-dom sta-tis-ti-cal
 Wi-zen-gam-ot an-aly-se an-aly-sis remem-ber}
 
 \newcommand{\BBref}[1]{69}
+
+
+
+% jpp: for hints, discussion, foreshadowing...
+% 2016-11-18
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Option 1: regular footnotes (number embedded in text, footnote text at bottom of page)
+% \newcommand{\hint}[1]{\footnote{#1}}  
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Option 2: numbers in margin, text at bottom
+% http://tex.stackexchange.com/questions/339960/footnote-with-number-in-margin/339963#339963
+\newcommand{\hint}[1]{\marginpar{\footnotemark}\footnotetext{#1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Option 3: numbers in margin, text at end of book
+% \newcommand{\hint}[1]{\marginpar{\endnote{#1}}}  
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Option 4: numbers at bottom of page, text at end of book
+% todo
+% http://tex.stackexchange.com/questions/170511/footnotes-without-numbering
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Option 5: numbers embedded in text, text at end of book
+% \newcommand{\hint}[1]{\endnote{#1}}  
+
+
 
 
 % Disable textls, doesn’t work with xetex
