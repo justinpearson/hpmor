@@ -7,6 +7,8 @@
 \pagenumbering{arabic}
 
 \setcounter{page}{0}
+\setcounter{chapter}{99}
+
 \include{new-chapters/hpmor-chapter-100}
 \include{new-chapters/hpmor-chapter-101}
 \include{new-chapters/hpmor-chapter-102}
@@ -31,5 +33,19 @@
 \include{new-chapters/hpmor-chapter-121}
 \include{new-chapters/hpmor-chapter-122}
 
+\label{last:chapter}
+
+% Appendices, etc.
+\appendix
+\renewcommand\chaptername{Appendix}
+
+\include{hp-epigraphs}
+\include{new-chapters/hpmor-chapter-011}
+\include{new-chapters/hpmor-chapter-064}
+\include{hp-exam}
+
 \include{hp-colophon}
+
+
+%\include{hp-colophon}
 \end{document}
