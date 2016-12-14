@@ -24,7 +24,12 @@ Want to help? Help me integrate the foreshadowing threads from the [hpmor subred
 
 - https://www.reddit.com/r/HPMOR/comments/2zgvhf/spoilers_for_chapter_46_more_foreshadowing_that_i/
 - https://www.reddit.com/r/HPMOR/comments/4on1vu/whats_your_favorite_example_of_foreshadowing/
-- [more...](https://www.google.com/search?q=foreshadowing+site%3Areddit.com%2Fr%2Fhpmor)
+- https://www.reddit.com/r/HPMOR/comments/2wcmyd/hpmor_annotated_a_new_sequencebased_attempt/
+- https://www.reddit.com/r/HPMOR/comments/22nm13/hpmor_annotated_wiki_come_help_out/
+- https://www.reddit.com/r/HPMOR/comments/tvx96/annotated_hpmor_file_anyone/
+- [more...](https://www.google.com/search?q=annotation+site%3Areddit.com%2Fr%2Fhpmor)
+- [and more...](https://www.google.com/search?q=foreshadowing+site%3Areddit.com%2Fr%2Fhpmor)
+
 
 
 
