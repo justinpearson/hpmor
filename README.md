@@ -1,7 +1,24 @@
 HPMOR
 =====
 
-LaTeX/PDF version of “Harry Potter and the Methods of Rationality”
+LaTeX/PDF version of “Harry Potter and the Methods of Rationality” -- with annotations to highlight foreshadowing.
+
+HPMOR has lots of foreshadowing that rewards repeated reading. This fork adds annotations meant to highlight clever foreshadowing, for example in Chapter 1:
+
+![Foreshadowing text](Pictures/foreshadow-ex1.png)
+
+...
+
+![Foreshadowing footnote](Pictures/foreshadow-ex2.png)
+
+- Feel free to pull-request your own annotations / hints. Use the `hint{}` macro in `new-chapters/hpmor-chapter-001.tex` and other chapters.
+- I commented-out the PDF covers because I intend to print my own hard-copies through <lulu.com> using the method described by  <https://github.com/ianstormtaylor/hpmor>.
+
+
+
+README forked from rjl20
+=========================
+
 
 This fork incorporates changes made to the chapters after they were added to 
 the PDF. Chapter 9, for example, has had a large chunk moved to the 
