@@ -1,5 +1,5 @@
-HPMOR
-=====
+HPMOR -- Annotated
+===================
 
 LaTeX/PDF version of “Harry Potter and the Methods of Rationality” -- with annotations to highlight foreshadowing.
 
@@ -16,7 +16,15 @@ HPMOR has lots of foreshadowing that rewards repeated reading. This fork adds an
 ---
 
 - **Please help add annotations!** Feel free to pull-request your own annotations / hints. Use the `hint{}` macro in `new-chapters/hpmor-chapter-001.tex` and other chapters.
-- I commented-out the PDF covers because I intend to print my own hard-copies through <https://www.lulu.com/> using the method described by  <https://github.com/ianstormtaylor/hpmor>.
+- The `hint{}` macro in `hp-header.tex` can be configured to place the numbers in the margins (as shown above) or within the text body, and put the hint text in the footer or at the end of the book.
+- I commented-out the PDF covers because I intend to print my own hard-copies through [lulu.com](https://www.lulu.com/) using the method described by  <https://github.com/ianstormtaylor/hpmor>.
+
+
+Want to help? Help me integrate the foreshadowing threads from the [hpmor subreddit](https://www.reddit.com/r/hpmor), e.g., 
+
+- https://www.reddit.com/r/HPMOR/comments/2zgvhf/spoilers_for_chapter_46_more_foreshadowing_that_i/
+- https://www.reddit.com/r/HPMOR/comments/4on1vu/whats_your_favorite_example_of_foreshadowing/
+- [more...](https://www.google.com/search?q=foreshadowing+site%3Areddit.com%2Fr%2Fhpmor)
 
 
 
