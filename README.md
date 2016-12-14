@@ -16,7 +16,7 @@ HPMOR has lots of foreshadowing that rewards repeated reading. This fork adds an
 ---
 
 - **Please help add annotations!** Feel free to pull-request your own annotations / hints. Use the `hint{}` macro in `new-chapters/hpmor-chapter-001.tex` and other chapters.
-- I commented-out the PDF covers because I intend to print my own hard-copies through <lulu.com> using the method described by  <https://github.com/ianstormtaylor/hpmor>.
+- I commented-out the PDF covers because I intend to print my own hard-copies through <https://www.lulu.com/> using the method described by  <https://github.com/ianstormtaylor/hpmor>.
 
 
 
