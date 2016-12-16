@@ -12,7 +12,7 @@
 \usepackage{geometry}  
 \usepackage{marginnote}
 
-\newcommand{\mylabel}[1]{\phantomsection\label{#1}}
+\newcommand{\mylabel}[1]{\phantomsection\label{#1}}  % hyperref doesn't warp / link to the right pagse unless you force a counter increment with phantom-section. Ugh.
 
 
 %~ \usepackage{savesym}
