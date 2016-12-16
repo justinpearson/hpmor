@@ -1,5 +1,15 @@
 \input{hp-header}
 
+
+% jpp: to make page numbering continuously increasing across books.
+% http://tex.stackexchange.com/questions/14364/cross-referencing-between-different-files
+\externaldocument{hpmor-1}
+% \externaldocument{hpmor-2}
+\externaldocument{hpmor-3}
+\externaldocument{hpmor-4}
+\externaldocument{hpmor-5}
+\externaldocument{hpmor-6}
+
 \begin{document}
 {
 \pagestyle{empty}
@@ -8,9 +18,14 @@
 \input{hp-contents}
 \cleartorecto
 }
+
 \pagenumbering{arabic}
-\setcounter{page}{1}
+% \setcounter{page}{342} % ok
+% \setcounter{page}{\pageref{my-last-page}} % no
+\setcounterpageref{page}{book1-last-page} % ok
+
 \setcounter{chapter}{21}
+
 
 \include{new-chapters/hpmor-chapter-022}
 \include{new-chapters/hpmor-chapter-023}
@@ -29,5 +44,10 @@
 \include{new-chapters/hpmor-chapter-036}
 \include{new-chapters/hpmor-chapter-037}
 
+\label{book2-last-page}
+
 \include{hp-colophon}
+
+
+
 \end{document}

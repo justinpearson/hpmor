@@ -12,6 +12,8 @@
 \usepackage{geometry}  
 \usepackage{marginnote}
 
+\newcommand{\mylabel}[1]{\phantomsection\label{#1}}
+
 
 %~ \usepackage{savesym}
 %~ \savesymbol{textls}
@@ -27,11 +29,19 @@
 
 \usepackage{eso-pic,picture}
 
+% jpp: to make page numbering continuously increasing across books.
+% http://tex.stackexchange.com/questions/14364/cross-referencing-between-different-files
+% http://tex.stackexchange.com/questions/344279/using-xr-hyper-and-hyperref-error-when-setting-the-page-counter
+\usepackage{refcount}
+\usepackage{xr-hyper}
+
+
 \usepackage[bookmarks=true,unicode=true,pdfborder={0 0 0},
 	pdftitle={Harry Potter and the Methods of Rationality},
 	pdfauthor={LessWrong}, breaklinks={true},
 	pdfkeywords={Harry Potter, rationality},pdfencoding=auto
 ]{hyperref}
+
 
 \usepackage[autostyle=false, style=english]{csquotes}
 \MakeOuterQuote{"}	% Automatic curly quotes

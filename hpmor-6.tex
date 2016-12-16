@@ -1,12 +1,21 @@
 \input{hp-header}
 
+\externaldocument{hpmor-1}
+\externaldocument{hpmor-2}
+\externaldocument{hpmor-3}
+\externaldocument{hpmor-4}
+\externaldocument{hpmor-5}
+% \externaldocument{hpmor-6}
+
+
 \begin{document}
 \include{hp-intro-6}
 \pagenumbering{gobble}
 \include{hp-contents}
 \pagenumbering{arabic}
 
-\setcounter{page}{0}
+% \setcounter{page}{0}
+\setcounterpageref{page}{book5-last-page} % ok
 \setcounter{chapter}{99}
 
 \include{new-chapters/hpmor-chapter-100}

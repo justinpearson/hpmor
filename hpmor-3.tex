@@ -1,5 +1,12 @@
 \input{hp-header}
 
+\externaldocument{hpmor-1}
+\externaldocument{hpmor-2}
+% \externaldocument{hpmor-3}
+\externaldocument{hpmor-4}
+\externaldocument{hpmor-5}
+\externaldocument{hpmor-6}
+
 \begin{document}
 {
 \pagestyle{empty}
@@ -9,7 +16,8 @@
 \cleartorecto
 }
 \pagenumbering{arabic}
-\setcounter{page}{1}
+% \setcounter{page}{1}
+\setcounterpageref{page}{book2-last-page} % ok
 \setcounter{chapter}{37}
 
 \include{new-chapters/hpmor-chapter-038}
@@ -38,6 +46,8 @@
 \include{new-chapters/hpmor-chapter-061}
 \include{new-chapters/hpmor-chapter-062} 
 \include{new-chapters/hpmor-chapter-063}
+
+\label{book3-last-page}
 
 \include{hp-colophon}
 \end{document}
