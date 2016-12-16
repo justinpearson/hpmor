@@ -16,6 +16,7 @@ HPMOR has lots of foreshadowing that rewards repeated reading. This fork adds an
 ---
 
 - **Please help add annotations!** Feel free to pull-request your own annotations / hints. Use the `hint{}` macro in `new-chapters/hpmor-chapter-001.tex` and other chapters.
+- To link between places in the text, use the `\mylabel` macro to add labels and `\pageref` to refer to labels' pages.
 - The `hint{}` macro in `hp-header.tex` can be configured to place the numbers in the margins (as shown above) or within the text body, and put the hint text in the footer or at the end of the book.
 - I commented-out the PDF covers because I intend to print my own hard-copies through [lulu.com](https://www.lulu.com/) using the method described by  <https://github.com/ianstormtaylor/hpmor>.
 
