@@ -15,9 +15,27 @@ HPMOR has lots of foreshadowing that rewards repeated reading. This fork adds an
 
 ---
 
-- **Please help add annotations!** Feel free to pull-request your own annotations / hints. Use the `hint{}` macro in `new-chapters/hpmor-chapter-001.tex` and other chapters.
-- To link between places in the text, use the `\mylabel` macro to add labels and `\pageref` to refer to labels' pages.
-- The `hint{}` macro in `hp-header.tex` can be configured to place the numbers in the margins (as shown above) or within the text body, and put the hint text in the footer or at the end of the book.
+The LaTeX code to generate these notes is simply
+
+    sick for weeks\hint{We learn in Ch 17 that ...}
+
+To link between places in the text, use `\mylabel` and `\pageref`. For example: In Ch 17:
+
+```latex
+    Dumbledore was laughing now.\hint{Dumbledore is laughing because 
+       he realizes blah blah, see page~\pageref{dd-laughs2}}
+    \mylabel{dd-laughs}
+```
+
+And in Ch 110: 
+
+```latex
+    When I saw you had made a Good Voldemort to oppose the evil one---ah, how I laughed!
+    \hint{The scene: page~\pageref{dd-laughs}}
+    \mylabel{dd-laughs2}
+```
+
+- The `hint{}` macro in `hp-header.tex` can be configured to place the numbers and footnote text in various positions: in the margins (as shown above), within the text body, at the end of the chapter, etc.
 - I commented-out the PDF covers because I intend to print my own hard-copies through [lulu.com](https://www.lulu.com/) using the method described by  <https://github.com/ianstormtaylor/hpmor>.
 
 
